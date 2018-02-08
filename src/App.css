@@ -1,0 +1,59 @@
+#head{
+  text-align: center;
+  color:crimson;
+  font-weight: bold;
+  font-size: 2em;
+  border-top: solid 1px crimson;
+  border-bottom: solid 1px crimson;
+  margin-bottom: 15px;
+}
+#menu button {
+  width: 85px;
+  text-align: center;
+  margin-top: 5px;
+  color: crimson;
+  font-weight: bold;
+}
+#menu >div:nth-child(4){
+  margin-top: 30px;
+}
+#generation{
+  text-align: center;
+  margin-top: 50px;
+  color: crimson;
+}
+#generation > div:nth-child(2){
+  font-size: 2em;
+}
+#game{
+  width: 75%;
+  padding-right: 15px;
+}
+#menu{
+  width: 25%;
+  text-align: right;
+  margin-right: 15px;
+}
+#main{
+  display: flex;
+}
+#board{
+  border: solid 4px #bbb;
+  width: 780px;
+  height: 480px;
+}
+.cell{
+  border-right: solid 0.5px #bbb;
+  border-bottom: solid 0.5px #bbb;
+  width: 12px;
+  height: 12px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.alive{
+  background-color: crimson;
+}
+.dead{
+  background-color: white;
+}
